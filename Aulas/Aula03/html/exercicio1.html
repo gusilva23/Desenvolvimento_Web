@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var nomeEmpresa = prompt("Digite o nome da empresa ")
+    var cnpjEmpresa = prompt("Digite o CNPJ")
+    
+
+    var lista = []
+    
+   
+    var empresa = {
+        nome: nomeEmpresa,
+        cnpj: cnpjEmpresa
+    }
+    
+    var empresa2 = {
+        nome: nomeEmpresa,
+        cnpj: cnpjEmpresa
+    }
+     
+
+    lista.push(empresa)
+    lista.push(empresa2)
+    
+
+    document.writeln("<p> o nome da empresa é: ", lista[0].nome, ".</p>")
+    document.writeln("o cnpj da empresa é: ", lista[0].cnpj)
+</script>
+</html>
