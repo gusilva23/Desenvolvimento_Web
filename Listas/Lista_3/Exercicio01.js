@@ -4,9 +4,9 @@ var artista1 = {
     listaDeMelhoresMusicas: ["Caneta azul", "Lá ele", "Eu vou deixar de ser besta"],
     informacaoDosIntegrantes: [
         {
-        nomeCompleto: "Manoel Gomes",
-        paísDeOrigem: "Brasil",
-        idade: 53
+            nomeCompleto: "Manoel Gomes",
+            paísDeOrigem: "Brasil",
+            idade: 53
         },
     ],
     estiloDoArtista: "Brega"
@@ -18,27 +18,40 @@ var artista2 = {
     listaDeMelhoresMusicas: ["Não teve amor", "Dançando Calypso", "Meu amor chegou"],
     informacaoDosIntegrantes: [
         {
-        nomeCompleto: "Joelma da Silva Mendes",
-        paísDeOrigem: "Brasil",
-        idade: 48
+            nomeCompleto: "Joelma da Silva Mendes",
+            paísDeOrigem: "Brasil",
+            idade: 48
         },
     ],
     estiloDoArtista: "Forró"
-    }
+}
     
 var artista3 = {
-    nome: "Ivete Sangalo",
+    nome: "Restart",
     anoDeLançametoPrimeiroCd: 1999,
     listaDeMelhoresMusicas: ["Quando a chuva passar", "Se eu não te amasse tanto assim", "Não precisa mudar"],
     informacaoDosIntegrantes: [
         {
-            nomeCompleto: "Ivete Sangalo",
+            nomeCompleto: "Pelanza",
             paísDeOrigem: "Brasil",
-            idade: 50
-        }
+            idade: 20
+        },
+        {
+            nomeCompleto: "Pelu",
+            paísDeOrigem: "Brasil",
+            idade: 25
+        },
+        {
+            nomeCompleto: "Dudu",
+            paísDeOrigem: "Brasil",
+            idade: 23
+        },
+
     ],
     estiloDoArtista: "Axé"
 }
+
+
 
 var database = []
 
